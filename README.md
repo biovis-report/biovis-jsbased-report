@@ -1,3 +1,3 @@
-# biovis-base-plugins
+# biovis-jsbase-plugins
 
-A set of base plugins for bivis-report.
+A set of JavaScript-based plugins for bivis-report.

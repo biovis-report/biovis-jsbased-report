@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 def get_version():
-    return '0.1.0'
+    return '0.5.0'
 
 setup(
     name='biovis-jsbase-plugins',

@@ -17,7 +17,7 @@ function PivotTableViewer(divId, configs) {
             dataSource: {
                 filename: configs.dataUrl
             },
-            localization: "http://nordata-cdn.oss-cn-shanghai.aliyuncs.com/biovis-report/2019-03-18-custom-en.json"
+            localization: "https://cdn.biovis.report/assets/2019-03-18-custom-en.json"
         }
     });
 
