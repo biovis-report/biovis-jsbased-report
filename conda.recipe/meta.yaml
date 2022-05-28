@@ -1,7 +1,7 @@
 {% set data = load_setup_py_data() %}
 
 package:
-  name: biovis-jsbase-plugins
+  name: biovis-jsbased-plugins
   version: {{ data.version }}
 
 
@@ -37,5 +37,5 @@ about:
 
   summary: {{ data.description }}
   description: {{ data.description }}
-  doc_url: https://github.com/biovis-report/biovis-jsbase-plugins/blob/master/README.md
+  doc_url: https://github.com/biovis-report/biovis-jsbased-plugins/blob/master/README.md
   dev_url: {{ data.url }}

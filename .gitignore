@@ -1,4 +1,4 @@
 dist/
-biovis_jsbase_plugins.egg-info/
+biovis_jsbased_plugins.egg-info/
 __pycache__
 .DS_Store
