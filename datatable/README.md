@@ -21,7 +21,7 @@ Adapter Only    113903 P10-QI-4-5          1
 ### Usage
 
 ```
-@data-table-js(dataUrl='stack-barplot-example.csv')
+@datatable-js(dataUrl='./your-custom-data.csv')
 ```
 
 ### Arguments
@@ -39,6 +39,8 @@ Jingcheng Yang(yjcyxky@163.com)
 ### Examples
 
 ```
+@datatable-js(dataUrl='https://cdn.biovis.report/examples/data/data_clinical_patient.csv')
+
 # If you have a custom data, you need to reset these arguments at least.
-@data-table-js(dataUrl='stack-barplot-example.csv')
+@datatable-js(dataUrl='./your-custom-data.csv')
 ```
