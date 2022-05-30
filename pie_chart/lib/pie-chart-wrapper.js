@@ -9,8 +9,8 @@ function PieChartViewer(divId, configs) {
     console.log("The configs for PieChartViewer: ", configs)
 
     function setChartContainer() {
-        chartInstance.style.width = window.innerWidth != 0 ? window.innerWidth + 'px' : '100%';
-        chartInstance.style.height = window.innerHeight != 0 ? window.innerHeight + 'px' : '500px';
+        chartInstance.style.width = window.innerWidth >= 1000 ? window.innerWidth + 'px' : '100%';
+        chartInstance.style.height = window.innerHeight >= 300 ? window.innerHeight + 'px' : '500px';
     };
 
     function getItems(data) {
